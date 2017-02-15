@@ -49,9 +49,9 @@ alt = ""
 source = "/img/federico.jpg"
 url = "#"
 description = """
-Blablabla <br/>
-dit is text <br/>
-meer text <br/>
+Student Number: 20140938<br/>
+Birth Date: 17/07/1995<br/>
+Role: (still undecided)<br/>
 """
 
 [[params.authors]]
