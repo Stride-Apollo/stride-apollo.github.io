@@ -2586,3 +2586,19 @@
 .article {
 	text-align: left;
 }
+
+.authors {
+	text-align: center;
+}
+
+.authors .item {
+	margin: 1em;
+	max-width: 15em;
+/* 	float: left; */
+	display: inline-block;
+	overflow-wrap: break-word;
+}
+
+.authors .item p {
+	padding: 0.5em;
+}
