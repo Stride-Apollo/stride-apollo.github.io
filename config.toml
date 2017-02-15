@@ -38,9 +38,9 @@ alt = ""
 source = "/img/stijn.jpg"
 url = "#"
 description = """
-Blablabla <br/>
-dit is text <br/>
-meer text <br/>
+Student Number: 20142002<br/>
+Birth Date: 15/07/1996<br/>
+Role: Coordinator for the Apollo Project<br/>
 """
 
 [[params.authors]]

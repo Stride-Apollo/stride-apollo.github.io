@@ -6,7 +6,7 @@
 
 							<header class="pic-overlay">
 								<h2 class="alt">Welcome to the website of our group, <strong>Apollo</strong>.</h2>
-								
+
 							</header>
 
 							<footer>
@@ -26,19 +26,21 @@
 								<h2>About Us</h2>
 							</header>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
-							
+							<p>The name of this project is based on the mythical ancient Greek
+							god Apollo. Apollo is mainly known as the god of the younglings, arts
+							and light. He is lesser known as the god of the plague and epidemics,
+							which he brought upon the people by shooting poisoned arrows from his
+							famous bow. Contradictory, Apollo is also the god of the healing arts
+							and medicine, like his son Aesclepius. It is for this reason that we have
+							chosen to call ourselves Apollo. We also hope to be as successfull as 
+							the NASA project of the same name.</p>
+
 							<div class="authors">
 								{{ range .Site.Params.authors }} 
 								<article class="item">
 									<img src="{{ .source }}" class="image fit" alt="{{ .alt }}" />
 									<header>
-									<h2>{{ .title }}</h2>							
+									<h2>{{ .title }}</h2>
 									<p>{{ .description | markdownify }}</p>
 									</header>
 								</article>
@@ -47,7 +49,7 @@
 
 						</div>
 					</section>
-				
+
 				<!-- Blog -->
 					<section id="blog" class="three">
 						<div class="container">
@@ -71,5 +73,3 @@
 			</div>
 
 {{ partial "footer.html" . }}
-
-
