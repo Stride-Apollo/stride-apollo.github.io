@@ -24,7 +24,7 @@ link = "#"
 [[params.authors]]
 title = "Anthony Hermans"
 alt = ""
-source = "/img/pic02.jpg"
+source = "/img/anthony.jpg"
 url = "#"
 description = """
 Blablabla <br/>
@@ -35,7 +35,7 @@ meer text <br/>
 [[params.authors]]
 title = "Stijn Janssens"
 alt = ""
-source = "/img/pic02.jpg"
+source = "/img/stijn.jpg"
 url = "#"
 description = """
 Blablabla <br/>
@@ -44,9 +44,9 @@ meer text <br/>
 """
 
 [[params.authors]]
-title = "Frederico Quin"
+title = "Federico Quin"
 alt = ""
-source = "/img/pic02.jpg"
+source = "/img/federico.jpg"
 url = "#"
 description = """
 Blablabla <br/>
@@ -57,7 +57,7 @@ meer text <br/>
 [[params.authors]]
 title = "Sam Mylle"
 alt = ""
-source = "/img/pic02.jpg"
+source = "/img/sam.jpg"
 url = "#"
 description = """
 Blablabla <br/>
@@ -68,7 +68,7 @@ meer text <br/>
 [[params.authors]]
 title = "Evert Heylen"
 alt = ""
-source = "/img/pic02.jpg"
+source = "/img/evert.jpg"
 url = "#"
 description = """
 Ik heb geen idee eigenlijk wat ge hier moet schrijven. Fan van Python en Arch Linux? Geen fan van Eclipse? Favoriet project?
