@@ -60,9 +60,9 @@ alt = ""
 source = "/img/sam.jpg"
 url = "#"
 description = """
-Blablabla <br/>
-dit is text <br/>
-meer text <br/>
+Student Number: 20142520<br/>
+Birth Date: 29/09/1996<br/>
+Role: Website maintenance<br/>
 """
 
 [[params.authors]]
