@@ -13,4 +13,3 @@ Quamquam haec quidem praeposita recte et reiecta dicere licebit. Omnis enim est 
 Summum a vobis bonum voluptas dicitur. Duo Reges: constructio interrete. Stulti autem malorum memoria torquentur, sapientes bona praeterita grata recordatione renovata delectant. Honesta oratio, Socratica, Platonis etiam. Quis negat? Quamquam ab iis philosophiam et omnes ingenuas disciplinas habemus;
 
 Nam Pyrrho, Aristo, Erillus iam diu abiecti. Plane idem, inquit, et maxima quidem, qua fieri nulla maior potest. Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Ubi ut eam caperet aut quando?
-

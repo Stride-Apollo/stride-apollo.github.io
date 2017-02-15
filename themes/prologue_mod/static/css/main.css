@@ -2602,3 +2602,8 @@
 .authors .item p {
 	padding: 0.5em;
 }
+
+.article-time {
+	font-weight: bold;
+	margin-left: 2em;
+}
