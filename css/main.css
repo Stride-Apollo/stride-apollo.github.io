@@ -1903,6 +1903,7 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
+		margin-bottom: 0.2em;
  		background-color: rgba(0,0,0,0.3);
  		border: 1px solid rgba(255,255,255,0.6) !important;
 		cursor: pointer;
