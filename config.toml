@@ -5,17 +5,71 @@ theme = "prologue_mod"
 publishDir = "."
 
 [params]
-  name = "Apollo"
-  description = "blabla"
+name = "Apollo"
+description = "blabla"
 
 
 [[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "#"
+medium = "github"
+icon = "github"
+link = "#"
 
 [[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "#"
+medium = "email"
+icon = "envelope"
+link = "#"
 
+# Portfolio column one
+
+[[params.authors]]
+title = "Anthony Hermans"
+alt = ""
+source = "/img/pic02.jpg"
+url = "#"
+description = """
+Blablabla <br/>
+dit is text <br/>
+meer text <br/>
+"""
+
+[[params.authors]]
+title = "Stijn Janssens"
+alt = ""
+source = "/img/pic02.jpg"
+url = "#"
+description = """
+Blablabla <br/>
+dit is text <br/>
+meer text <br/>
+"""
+
+[[params.authors]]
+title = "Frederico Quin"
+alt = ""
+source = "/img/pic02.jpg"
+url = "#"
+description = """
+Blablabla <br/>
+dit is text <br/>
+meer text <br/>
+"""
+
+[[params.authors]]
+title = "Sam Mylle"
+alt = ""
+source = "/img/pic02.jpg"
+url = "#"
+description = """
+Blablabla <br/>
+dit is text <br/>
+meer text <br/>
+"""
+
+[[params.authors]]
+title = "Evert Heylen"
+alt = ""
+source = "/img/pic02.jpg"
+url = "#"
+description = """
+Ik heb geen idee eigenlijk wat ge hier moet schrijven. Fan van Python en Arch Linux? Geen fan van Eclipse? Favoriet project?
+"""

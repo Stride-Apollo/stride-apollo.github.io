@@ -32,6 +32,20 @@
 							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
 							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
 							ornare iaculis.</p>
+							
+							<div class="authors">
+<!-- 								<div class="4u 12u$(mobile)"> -->
+								{{ range .Site.Params.authors }} 
+								<article class="item">
+									<img src="{{ .source }}" class="image fit" alt="{{ .alt }}" />
+									<header>
+									<h2>{{ .title }}</h2>							
+									<p>{{ .description | markdownify }}</p>
+									</header>
+								</article>
+								{{ end }}
+<!-- 								</div> -->
+							</div>
 
 						</div>
 					</section>
