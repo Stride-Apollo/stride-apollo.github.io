@@ -1,0 +1,63 @@
+{{ partial "header.html" . }}
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header class="pic-overlay">
+								<h2 class="alt">Welcome to the website of our group, <strong>Apollo</strong>.</h2>
+								
+							</header>
+
+							<footer>
+								<a href="#" class="button scrolly">Source</a>
+								<a href="#" class="button scrolly">Docs</a>
+								<a href="http://143.129.74.12:8080/" class="button scrolly">Jenkins</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- About Us -->
+					<section id="about" class="two">
+						<div class="container">
+
+							<header>
+								<h2>About Us</h2>
+							</header>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+				
+				<!-- Blog -->
+					<section id="blog" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Blog</h2>
+							</header>
+
+							{{ range .Site.Pages }} {{ if eq .Section "post" }}
+							<a class="article-summary" href="{{ .Permalink }}">
+								<div>
+									<time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+									<h3>{{ .Title }}</h3>
+								</div>
+								<p>{{ .Summary }}</p>
+							</a>
+							{{ end }} {{ end }}
+						</div>
+					</section>
+
+			</div>
+
+{{ partial "footer.html" . }}
+
+

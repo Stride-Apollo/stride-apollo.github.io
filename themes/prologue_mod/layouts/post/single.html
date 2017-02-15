@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+				<!-- About Us -->
+					<section class="three">
+						<div class="container">
+							<header>
+								<h2>{{ .Title }}</h2>
+							</header>
+							<time class="pull-right">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+							
+							<div class="article">
+							{{ .Content }}
+							</div>
+							
+						</div>
+					</section>
+			</div>
+
+{{ partial "footer.html" . }}
