@@ -1,0 +1,21 @@
+languageCode = "en-us"
+title = "Apollo Group Site"
+baseurl = "https://apollo-stride.github.io/"
+theme = "prologue"
+publishDir = "docs"
+
+[params]
+  name = "Apollo"
+  description = "blabla"
+
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "#"
+
+[[params.social]]
+  medium = "email"
+  icon = "envelope"
+  link = "#"
+
