@@ -6,18 +6,18 @@ publishDir = "."
 
 [params]
 name = "Apollo"
-description = "blabla"
+description = "Group for Bachelor Thesis"
 
 
 [[params.social]]
 medium = "github"
 icon = "github"
-link = "#"
+link = "https://github.com/Stride-Apollo"
 
 [[params.social]]
 medium = "email"
 icon = "envelope"
-link = "#"
+link = "mailto:stijn.janssens@student.uantwerpen.be"
 
 # Portfolio column one
 
@@ -71,5 +71,5 @@ alt = ""
 source = "/img/evert.jpg"
 url = "#"
 description = """
-Ik heb geen idee eigenlijk wat ge hier moet schrijven. Fan van Python en Arch Linux? Geen fan van Eclipse? Favoriet project?
+Fan of Python and Arch Linux, and open source software in general. Some of my favorite projects are [Helix](https://github.com/evertheylen/TA_TO) and [Sparrow](https://github.com/evertheylen/Sparrow). Hobbies include hiking and stage lighting.
 """
