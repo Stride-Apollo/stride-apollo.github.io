@@ -4,4 +4,4 @@ draft = false
 title = "Hello World"
 +++
 
-Welcome to our new site. The site is built with [Hugo](https://gohugo.io/) using the [Prologue](http://themes.gohugo.io/prologue/) theme (although heavily modified). If we have something interesting to say during the development process, we will post it as a blog article, otherwise this site serves as reference to point to other online resources.
+Welcome to our new site. The site is built with [Hugo](https://gohugo.io/) using the [Prologue](http://themes.gohugo.io/prologue/) theme (although heavily modified), hosted on [Github Pages](https://pages.github.com/). If we have something interesting to say during the development process, we will post it as a blog article, otherwise this site serves as reference to point to other online resources.
