@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://apollo-stride.github.io/post/welcome/</loc>
+    <loc>https://stride-apollo.github.io/post/welcome/</loc>
     <lastmod>2017-02-15T14:09:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apollo-stride.github.io/</loc>
+    <loc>https://stride-apollo.github.io/</loc>
     <lastmod>2017-02-15T14:09:08+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apollo-stride.github.io/post/</loc>
+    <loc>https://stride-apollo.github.io/post/</loc>
     <lastmod>2017-02-15T14:09:08+01:00</lastmod>
     <priority>0</priority>
   </url>

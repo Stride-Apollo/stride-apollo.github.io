@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Apollo Group Site"
-baseurl = "https://apollo-stride.github.io/"
+baseurl = "https://stride-apollo.github.io/"
 theme = "prologue_mod"
 publishDir = "."
 
