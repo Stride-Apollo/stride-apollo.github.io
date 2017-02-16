@@ -38,9 +38,8 @@ alt = ""
 source = "/img/stijn.jpg"
 url = "#"
 description = """
-Student Number: 20142002<br/>
-Birth Date: 15/07/1996<br/>
-Role: Coordinator for the Apollo Project<br/>
+Fan of Artificial Intelligence and Big Data. Some of my favorite previous projects are [Helix](https://github.com/evertheylen/TA_TO) and [OverWatch](https://github.com/evertheylen/SmartHome).
+Hobby is playing music: drums, percussion and electric guitar.
 """
 
 [[params.authors]]
