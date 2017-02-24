@@ -27,9 +27,8 @@ alt = ""
 source = "/img/anthony.jpg"
 url = "#"
 description = """
-Blablabla <br/>
-dit is text <br/>
-meer text <br/>
+Really interested in Virtual Reality and AI systems like Jarvis. Some of my favorite previous projects are [Helix](https://github.com/evertheylen/TA_TO) and [OverWatch](https://github.com/evertheylen/SmartHome).
+Hobbies are running, fitness and building/driving RC cars.
 """
 
 [[params.authors]]
