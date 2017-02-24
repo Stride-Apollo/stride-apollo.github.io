@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Our Git Workflow</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="/css/main.css" />
+		
+		
+	</head>
+	<body>
+
+		
+			<div id="header">
+
+				<div class="top">
+
+					
+						<div id="logo">
+
+							<h1 id="title">Apollo</h1>
+							<p>Group for Bachelor Thesis</p>
+						</div>
+
+					
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="/#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="/#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Us</span></a></li>
+								<li><a href="/#blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-comment">Blog</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					
+						<ul class="icons">
+              
+              <li><a href="https://github.com/Stride-Apollo" class="icon fa-github"><span class="label">github</span></a></li>
+              
+              <li><a href="mailto:stijn.janssens@student.uantwerpen.be" class="icon fa-envelope"><span class="label">email</span></a></li>
+              
+						</ul>
+
+				</div>
+
+			</div>
+
+		
+			<div id="main">
+
+
+				
+					<section class="three">
+						<div class="container">
+							<header>
+								<h2>Our Git Workflow</h2>
+							</header>
+							<time class="pull-right article-time">Fri, Feb 24, 2017</time>
+							
+							<div class="article">
+							<p>We use both Github and Bitbucket to host our code. Our git workflow is based on the use of branches and pull requests. When trying to add or change something significant in size, the expected workflow is as follows:</p>
+
+<p></p>
+
+<ol>
+<li>Create a new branch, based on <code>master</code>.</li>
+<li>Add commits to the branch. If needed, one can merge <code>master</code> into the branch to prevent merge conflicts later on. This is useful when development on the branch is taking a long time and <code>master</code> has significantly deviated from when the branch was started.</li>
+<li>When the branch is in a finished state, the developer(s) submits a pull request. For this, we use Github because of its superior support:
+
+<ul>
+<li><strong>CI</strong>: Github shows the status of the CI server. If some tests fail, Github will warn us.</li>
+<li><strong>Reviews</strong>: One can request reviews from other developers, which can then give comments both in general and relating to a specific line of code.</li>
+<li><strong>Milestones</strong>: A pull request can be coupled to a milestone in order to better track progress.</li>
+</ul></li>
+<li>Based on the feedback, a developer can add more commits (which will show up in Github&rsquo;s interface)</li>
+<li>When everyone (including the CI server) agrees, the branch is merged into <code>master</code> and deleted.</li>
+</ol>
+
+<p>Although the pull requests themselves aren&rsquo;t visible in Bitbucket (they are not part of git), all branches, commits and merges are basic git features and will therefore be perfectly visible in Bitbucket.</p>
+
+<p>Apart from the <code>master</code> branch and the feature branches, we have two other branches:</p>
+
+<ul>
+<li><code>original</code> is for the original code coming from the central stride repository on Bitbucket. When new functionality is released, this will get merged into <code>master</code>.</li>
+<li><code>blessed</code> will simply be a more stable version of <code>master</code>, updated every week.</li>
+</ul>
+							</div>
+							
+						</div>
+					</section>
+			</div>
+
+		
+			<div id="footer">
+
+				
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+					</ul>
+
+			</div>
+
+		
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/jquery.scrolly.min.js"></script>
+			<script src="/js/jquery.scrollzer.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>
+
