@@ -6,8 +6,42 @@
     <description>Recent content on Apollo Group Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2017 14:09:08 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 24 Feb 2017 17:05:05 +0100</lastBuildDate>
     <atom:link href="https://stride-apollo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Our Git Workflow</title>
+      <link>https://stride-apollo.github.io/post/git/</link>
+      <pubDate>Fri, 24 Feb 2017 17:05:05 +0100</pubDate>
+      
+      <guid>https://stride-apollo.github.io/post/git/</guid>
+      <description>&lt;p&gt;We use both Github and Bitbucket to host our code. Our git workflow is based on the use of branches and pull requests. When trying to add or change something significant in size, the expected workflow is as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a new branch, based on &lt;code&gt;master&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add commits to the branch. If needed, one can merge &lt;code&gt;master&lt;/code&gt; into the branch to prevent merge conflicts later on. This is useful when development on the branch is taking a long time and &lt;code&gt;master&lt;/code&gt; has significantly deviated from when the branch was started.&lt;/li&gt;
+&lt;li&gt;When the branch is in a finished state, the developer(s) submits a pull request. For this, we use Github because of its superior support:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CI&lt;/strong&gt;: Github shows the status of the CI server. If some tests fail, Github will warn us.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reviews&lt;/strong&gt;: One can request reviews from other developers, which can then give comments both in general and relating to a specific line of code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Milestones&lt;/strong&gt;: A pull request can be coupled to a milestone in order to better track progress.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Based on the feedback, a developer can add more commits (which will show up in Github&amp;rsquo;s interface)&lt;/li&gt;
+&lt;li&gt;When everyone (including the CI server) agrees, the branch is merged into &lt;code&gt;master&lt;/code&gt; and deleted.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Although the pull requests themselves aren&amp;rsquo;t visible in Bitbucket (they are not part of git), all branches, commits and merges are basic git features and will therefore be perfectly visible in Bitbucket.&lt;/p&gt;
+
+&lt;p&gt;Apart from the &lt;code&gt;master&lt;/code&gt; branch and the feature branches, we have two other branches:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;original&lt;/code&gt; is for the original code coming from the central stride repository on Bitbucket. When new functionality is released, this will get merged into &lt;code&gt;master&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;blessed&lt;/code&gt; will simply be a more stable version of &lt;code&gt;master&lt;/code&gt;, updated every week.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>Hello World</title>
