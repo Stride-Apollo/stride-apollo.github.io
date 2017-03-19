@@ -22,7 +22,7 @@
 &lt;ol&gt;
 &lt;li&gt;Pubsub: OK.&lt;/li&gt;
 &lt;li&gt;HDF5 prototype: OK.&lt;/li&gt;
-&lt;li&gt;Population generator: Not OK. We found some inconsistencies in the assignment. There is not yet solution for these problems. We temporarily made our own solution.&lt;/li&gt;
+&lt;li&gt;Population generator: Not OK. We found some inconsistencies in the assignment. There is not yet a solution for these problems. We temporarily made our own solution.&lt;/li&gt;
 &lt;li&gt;HDF5 format: OK.&lt;/li&gt;
 &lt;li&gt;MR architecture: OK.&lt;/li&gt;
 &lt;/ol&gt;</description>
