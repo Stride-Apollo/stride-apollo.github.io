@@ -3,7 +3,7 @@ date = "2017-04-30T14:23:45+01:00"
 title = "Alpha Version"
 +++
 
-We are proud to tell you that our alpha version is ready to go.
+We are proud to tell you that our alpha version of the Apollo project is ready for takeoff.
 
 <!--more-->
 
