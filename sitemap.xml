@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://stride-apollo.github.io/</loc>
+    <lastmod>2017-04-30T14:23:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stride-apollo.github.io/post/Alpha%20Version/</loc>
+    <lastmod>2017-04-30T14:23:45+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stride-apollo.github.io/post/planning2/</loc>
     <lastmod>2017-04-03T12:12:56+01:00</lastmod>
   </url>
@@ -29,18 +39,6 @@
   <url>
     <loc>https://stride-apollo.github.io/post/welcome/</loc>
     <lastmod>2017-02-15T14:09:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stride-apollo.github.io/</loc>
-    <lastmod>2017-04-03T12:12:56+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stride-apollo.github.io/post/</loc>
-    <lastmod>2017-04-03T12:12:56+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
