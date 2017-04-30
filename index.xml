@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apollo Group Site</title>
-    <link>https://stride-apollo.github.io/index.xml</link>
+    <link>https://stride-apollo.github.io/</link>
     <description>Recent content on Apollo Group Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Apr 2017 12:12:56 +0100</lastBuildDate>
-    <atom:link href="https://stride-apollo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://stride-apollo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Planning update</title>
@@ -17,9 +19,7 @@
       <guid>https://stride-apollo.github.io/post/planning2/</guid>
       <description>&lt;p&gt;Our planning has changed:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;You can take a look by following this link: &lt;a href=&#34;https://app.teamweek.com/#p/zljsu_cs82erwwr0vaz-&#34;&gt;https://app.teamweek.com/#p/zljsu_cs82erwwr0vaz-&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,22 +30,7 @@
       <guid>https://stride-apollo.github.io/post/deadlines2/</guid>
       <description>&lt;p&gt;Time for another update. Here you can find a summary of our deadlines:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Population Generator 3.a:
-
-&lt;ul&gt;
-&lt;li&gt;A working version is available.&lt;/li&gt;
-&lt;li&gt;Not all requirements are met at the moment.&lt;/li&gt;
-&lt;li&gt;The performance of the generator is very bad and will need further inspection.&lt;/li&gt;
-&lt;li&gt;Current tests are successful&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;HDF5 implementation and tests 1.d: OK.&lt;/li&gt;
-&lt;li&gt;MR shared memory 4.b: This was a lot harder than we foresaw. We didn&amp;rsquo;t make much progress.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Due to missed deadlines, we&amp;rsquo;ll have to adjust our planning.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,9 +41,7 @@
       <guid>https://stride-apollo.github.io/post/planning1/</guid>
       <description>&lt;p&gt;Due to previous mentioned problems, our planning has changed:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;You can take a look by following this link: &lt;a href=&#34;https://app.teamweek.com/#p/tgzpamvj5-echgwme5zc&#34;&gt;https://app.teamweek.com/#p/tgzpamvj5-echgwme5zc&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -69,15 +52,7 @@
       <guid>https://stride-apollo.github.io/post/deadlines1/</guid>
       <description>&lt;p&gt;Up until now, we have passed the end date of 5 deadlines. Here you can find a summary of these deadlines:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Pubsub: OK.&lt;/li&gt;
-&lt;li&gt;HDF5 prototype: OK.&lt;/li&gt;
-&lt;li&gt;Population generator: Not OK. We found some inconsistencies in the assignment. There is not yet a solution for these problems. We temporarily made our own solution.&lt;/li&gt;
-&lt;li&gt;HDF5 format: OK.&lt;/li&gt;
-&lt;li&gt;MR architecture: OK.&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -88,30 +63,7 @@
       <guid>https://stride-apollo.github.io/post/git/</guid>
       <description>&lt;p&gt;We use both Github and Bitbucket to host our code. Our git workflow is based on the use of branches and pull requests. When trying to add or change something significant in size, the expected workflow is as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Create a new branch, based on &lt;code&gt;master&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Add commits to the branch. If needed, one can merge &lt;code&gt;master&lt;/code&gt; into the branch to prevent merge conflicts later on. This is useful when development on the branch is taking a long time and &lt;code&gt;master&lt;/code&gt; has significantly deviated from when the branch was started.&lt;/li&gt;
-&lt;li&gt;When the branch is in a finished state, the developer(s) submits a pull request. For this, we use Github because of its superior support:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;CI&lt;/strong&gt;: Github shows the status of the CI server. If some tests fail, Github will warn us.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reviews&lt;/strong&gt;: One can request reviews from other developers, which can then give comments both in general and relating to a specific line of code.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Milestones&lt;/strong&gt;: A pull request can be coupled to a milestone in order to better track progress.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Based on the feedback, a developer can add more commits (which will show up in Github&amp;rsquo;s interface)&lt;/li&gt;
-&lt;li&gt;When everyone (including the CI server) agrees, the branch is merged into &lt;code&gt;master&lt;/code&gt; and deleted.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Although the pull requests themselves aren&amp;rsquo;t visible in Bitbucket (they are not part of git), all branches, commits and merges are basic git features and will therefore be perfectly visible in Bitbucket.&lt;/p&gt;
-
-&lt;p&gt;Apart from the &lt;code&gt;master&lt;/code&gt; branch and the feature branches, we have two other branches:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;original&lt;/code&gt; is for the original code coming from the central stride repository on Bitbucket. When new functionality is released, this will get merged into &lt;code&gt;master&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;blessed&lt;/code&gt; will simply be a more stable version of &lt;code&gt;master&lt;/code&gt;, updated every week.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -120,8 +72,7 @@
       <pubDate>Wed, 15 Feb 2017 14:09:08 +0100</pubDate>
       
       <guid>https://stride-apollo.github.io/post/welcome/</guid>
-      <description>&lt;p&gt;Welcome to our new site. The site is built with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; using the &lt;a href=&#34;http://themes.gohugo.io/prologue/&#34;&gt;Prologue&lt;/a&gt; theme (although heavily modified), hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;. If we have something interesting to say during the development process, we will post it as a blog article, otherwise this site serves as reference to point to other online resources.&lt;/p&gt;
-</description>
+      <description>Welcome to our new site. The site is built with Hugo using the Prologue theme (although heavily modified), hosted on Github Pages. If we have something interesting to say during the development process, we will post it as a blog article, otherwise this site serves as reference to point to other online resources.</description>
     </item>
     
   </channel>
