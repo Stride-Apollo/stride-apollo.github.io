@@ -10,10 +10,20 @@
 							</header>
 
 							<footer>
-								<a href="https://bitbucket.org/evertheylen/stride-apollo/" class="button scrolly">BitBucket</a>
-								<a href="https://github.com/stride-apollo/stride" class="button scrolly">Github</a>
-<!-- 								<a href="#" class="button scrolly">Docs</a> -->
-								<a href="https://travis-ci.org/Stride-Apollo/Stride/branches" class="button scrolly">Travis CI</a>
+								<div class="link-collection">
+									<div class="link-collection-title">Source</div>
+									<a href="https://bitbucket.org/evertheylen/stride-apollo/" class="button scrolly">BitBucket</a>
+									<a href="https://github.com/stride-apollo/stride" class="button scrolly">Github</a>
+								</div>
+								<div class="link-collection">
+									<div class="link-collection-title">Tests</div>
+									<a href="https://travis-ci.org/Stride-Apollo/Stride/branches" class="button scrolly">Travis CI</a>
+								</div>
+								<div class="link-collection">
+									<div class="link-collection-title">Documentation</div>
+									<a href="https://apollo-report.readthedocs.io" class="button scrolly">Report</a>
+									<a href="https://stride.readthedocs.io/" class="button scrolly">Manual</a>
+								</div>
 							</footer>
 
 						</div>
@@ -59,7 +69,7 @@
 								<h2>Blog</h2>
 							</header>
 
-							{{ range .Site.Pages }} {{ if eq .Section "post" }}
+							{{ range .Data.Pages }} {{ if eq .Section "post" }}
 							<a class="article-summary" href="{{ .Permalink }}">
 								<div>
 									<time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
