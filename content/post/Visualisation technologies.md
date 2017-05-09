@@ -11,7 +11,7 @@ After some turbulences in the choice of our technologies for the visualisation, 
 To design our GUI, we chose to use a browser. We made this choice because there are many JavaScript visualisation libraries.	<br/>
 One of these libraries is "mapbox". Mapbox helps us to put the data on an interactive world map. It looks amazing and it is easy to use.	<br/>
 But mapbox alone isn't enough. We need graphs, lots and lots of graphs! This is why we decided to use "plotly". Plotly has great, interactive graphs and is also easy to use.	<br/>
-To run all this, we used electron. This allows us to read local files without chrome being a cunt about it.
+To run all this, we used electron. This allows us to read local files without getting safety errors from certain browsers.
 
 mapbox: https://www.mapbox.com/mapbox.js/api/v3.1.0/	<br/>
 plotly: https://plot.ly/javascript/	<br/>
