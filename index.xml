@@ -6,8 +6,27 @@
     <description>Recent content on Apollo Group Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Apr 2017 14:23:45 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2017 22:33:00 +0100</lastBuildDate>
     <atom:link href="https://stride-apollo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Visualisation technologies</title>
+      <link>https://stride-apollo.github.io/post/Visualisation%20technologies/</link>
+      <pubDate>Tue, 09 May 2017 22:33:00 +0100</pubDate>
+      
+      <guid>https://stride-apollo.github.io/post/Visualisation%20technologies/</guid>
+      <description>&lt;p&gt;The visualisation extension is making a great product into an excellent product!&lt;/p&gt;
+
+&lt;p&gt;After some turbulences in the choice of our technologies for the visualisation, we finally cut the knot. We are now on an escape trajectory towards success!
+To design our GUI, we chose to use a browser. We made this choice because there are many JavaScript visualisation libraries.
+One of these libraries is &amp;ldquo;mapbox&amp;rdquo;. Mapbox helps us to put the data on an interactive world map. It looks amazing and it is easy to use.
+But mapbox alone isn&amp;rsquo;t enough. We need graphs, lots and lots of graphs! This is why we decided to use &amp;ldquo;plotly&amp;rdquo;. Plotly has great, interactive graphs and is also easy to use.&lt;/p&gt;
+
+&lt;p&gt;Great libraries, great team, excellent software.&lt;/p&gt;
+
+&lt;p&gt;Apollo is shooting for the stars.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Alpha Version</title>
