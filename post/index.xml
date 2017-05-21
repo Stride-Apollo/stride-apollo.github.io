@@ -6,8 +6,28 @@
     <description>Recent content in Posts on Apollo Group Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 May 2017 22:33:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 May 2017 23:26:45 +0100</lastBuildDate>
     <atom:link href="https://stride-apollo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Beta Version</title>
+      <link>https://stride-apollo.github.io/post/Beta%20Version/</link>
+      <pubDate>Sun, 21 May 2017 23:26:45 +0100</pubDate>
+      
+      <guid>https://stride-apollo.github.io/post/Beta%20Version/</guid>
+      <description>&lt;p&gt;We are proud to tell you that our beta version of the Apollo project is ready for takeoff.&lt;/p&gt;
+
+&lt;p&gt;Upcoming Tuesday, we&amp;rsquo;ll show you the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UniPar, a multithreading library using OpenMP and TBB.&lt;/li&gt;
+&lt;li&gt;Our Stride visualisation tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For our presentation, we&amp;rsquo;ll use the following &lt;a href=&#34;https://stride-apollo.github.io/pdfs/Draaiboek.pdf&#34;&gt;script&lt;/a&gt;
+and this &lt;a href=&#34;https://stride-apollo.github.io/pdfs/PowerPoint.pdf&#34;&gt;powerpoint&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Visualisation technologies</title>
