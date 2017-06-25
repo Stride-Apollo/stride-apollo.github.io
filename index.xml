@@ -6,8 +6,41 @@
     <description>Recent content on Apollo Group Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 May 2017 23:26:45 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jun 2017 23:09:56 +0100</lastBuildDate>
     <atom:link href="https://stride-apollo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Final deadline</title>
+      <link>https://stride-apollo.github.io/post/FinalDeadline/</link>
+      <pubDate>Sun, 25 Jun 2017 23:09:56 +0100</pubDate>
+      
+      <guid>https://stride-apollo.github.io/post/FinalDeadline/</guid>
+      <description>&lt;p&gt;The Apollo project is done.&lt;/p&gt;
+
+&lt;p&gt;After 5-6 months, it&amp;rsquo;s over.
+We&amp;rsquo;ve implemented the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A visualization tool with lots of graphs.&lt;/li&gt;
+&lt;li&gt;Multi region shared memory.&lt;/li&gt;
+&lt;li&gt;HDF5 checkpointing (works with Multi region).&lt;/li&gt;
+&lt;li&gt;A generator of synthetic populations (whose performance was drastically improved during the project).&lt;/li&gt;
+&lt;li&gt;A library for multithreaded programming, giving the user the choice to use TBB or OpenMP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, we&amp;rsquo;ve failed to implement some features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Multi region MPI: We were very close to a solution. The reason this part is delayed, is because MPI consists of very old C code.&lt;/li&gt;
+&lt;li&gt;The performance report concerning multithreading: We gave Multi region MPI priority over this.&lt;/li&gt;
+&lt;li&gt;Paraview: Due to the inability to compile Paraview, we couldn&amp;rsquo;t work on this feature.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We hope our efforts will help the Stride project in its future endeavours.&lt;/p&gt;
+
+&lt;p&gt;Sincerely, The Apollo Team&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Beta Version</title>
