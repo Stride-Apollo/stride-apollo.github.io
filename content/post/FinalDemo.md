@@ -3,7 +3,7 @@ date = "2017-06-27T22:21:17+01:00"
 title = "Final Demo"
 +++
 
-Tomorrow, we'll show you out project.
+Tomorrow, we'll show you our project.
 
 <!--more-->
 
